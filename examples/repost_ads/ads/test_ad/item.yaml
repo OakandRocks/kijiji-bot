@@ -1,0 +1,28 @@
+postAdForm.title: Ad title
+postAdForm.alternateTitle: Alternate ad title
+postAdForm.priceAmount: '100.00'
+postAdForm.phoneNumber: ''
+postAdForm.adType: OFFER
+postAdForm.attributeMap[forsaleby_s]: ownr
+postAdForm.priceType: FIXED
+postAdForm.city: Toronto
+postAdForm.alternateCity: North York
+postAdForm.province: Ontario
+postAdForm.postalCode: M2J 5A7
+postAdForm.addressCity: Toronto
+postAdForm.alternateAddressCity: North York
+postAdForm.addressProvince: Ontario
+postAdForm.addressPostalCode: M2J 5A7
+postAdForm.geocodeLat: '43.777758500000004'
+postAdForm.geocodeLng: '-79.34429375180316'
+postAdForm.locationId: 1700273
+PostalLat: '43.777758500000004'
+PostalLng: '-79.34429375180316'
+locationLevel0: 1700272
+topAdDuration: '7'
+submitType: saveAndCheckout
+postAdForm.description: Ad description
+postAdForm.alternateDescription: Alternate ad description
+categoryId: 15
+image_paths:
+- image.png
