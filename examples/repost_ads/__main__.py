@@ -26,11 +26,11 @@ else:
 print('Successfully logged into Kijiji!')
 
 print('Reposting ads...')
-bot.repost_ads(_ADS_FOLDER, is_using_alternate_ads=config['is_using_alternate_ads'])
+config['cookies'] = bot.repost_ads(_ADS_FOLDER, is_using_alternate_ads=config['is_using_alternate_ads'])
+config['is_using_alternate_ads'] = not config['is_using_alternate_ads']
 print('Successfully posted ads!')
 
 print(f'Updating {_CONFIG_FILE}...')
 with open(_CONFIG_FILE, 'w') as file:
-  config['is_using_alternate_ads'] = not config['is_using_alternate_ads']
   file.write(yaml.dump(config))
 print(f'Successfully updated {_CONFIG_FILE}!')

@@ -67,3 +67,5 @@ class KijijiBot(api.KijijiApi):
             print(f'Posted ad: {data["postAdForm.title"]}')
           except Exception as exception:
             print(exception)
+
+    return self._get_cookies()
